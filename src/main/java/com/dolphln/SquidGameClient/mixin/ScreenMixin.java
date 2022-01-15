@@ -1,4 +1,4 @@
-package net.fabricmc.example.mixin;
+package com.dolphln.SquidGameClient.mixin;
 
 import net.fabricmc.fabric.api.client.screen.v1.Screens;
 import net.minecraft.client.MinecraftClient;
@@ -15,7 +15,7 @@ import org.spongepowered.asm.mixin.Shadow;
 import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Inject;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
-import java.util.Collections;
+
 import java.util.List;
 
 @Mixin(value = Screen.class, priority = 1100)

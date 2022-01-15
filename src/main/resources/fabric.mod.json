@@ -9,8 +9,8 @@
     "Dolphln"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "homepage": "https://dolphln.com/",
+    "sources": "https://github.com/DolphlnGamerYT/SquidGame-ClientMod"
   },
 
   "license": "CC0-1.0",
@@ -19,7 +19,7 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.fabricmc.example.ExampleMod"
+      "com.dolphln.SquidGameClient.SquidGameClientMod"
     ]
   },
   "mixins": [

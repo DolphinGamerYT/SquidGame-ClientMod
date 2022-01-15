@@ -1,13 +1,11 @@
-package net.fabricmc.example;
+package com.dolphln.SquidGameClient;
 
 import net.fabricmc.api.ModInitializer;
 import net.minecraft.client.MinecraftClient;
-import net.minecraft.client.render.entity.PlayerModelPart;
-import net.minecraft.sound.SoundCategory;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
-public class ExampleMod implements ModInitializer {
+public class SquidGameClientMod implements ModInitializer {
 
 	public static final Logger LOGGER = LogManager.getLogger("squidgamemod");
 
