@@ -14,7 +14,7 @@
   },
 
   "license": "CC0-1.0",
-  "icon": "assets/modid/icon.png",
+  "icon": "assets/squidgamemod/icon.png",
 
   "environment": "*",
   "entrypoints": {
@@ -30,7 +30,7 @@
     "fabricloader": ">=0.11.3",
     "fabric": "*",
     "minecraft": "1.16.x",
-    "java": ">=16"
+    "java": ">=8"
   },
   "suggests": {
     "another-mod": "*"

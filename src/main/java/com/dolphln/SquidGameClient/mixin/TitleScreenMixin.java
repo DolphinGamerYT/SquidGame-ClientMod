@@ -45,7 +45,7 @@ public abstract class TitleScreenMixin extends Screen {
 			this.client.options.setSoundVolume(SoundCategory.MUSIC, 0);
 			this.client.options.setPlayerModelPart(PlayerModelPart.CAPE, false);
 			this.client.inGameHud.vignetteDarkness = 0.0f;
-			this.client.openScreen(new ConnectScreen(this, this.client, new ServerInfo("SquidGame", "cd95accpjjnfen3g.alecuatro.net:42856", false)));
+			this.client.openScreen(new ConnectScreen(this, this.client, new ServerInfo("SquidGame", "calamardito.alecuatro.net:53266", false)));
 		}));
 	}
 
